@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
-          backgroundColor: Color(0xff000000),
+          backgroundColor: const Color(0xff000000),
           appBar: AppBar(
             centerTitle: true,
             title: const Text(
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
-            backgroundColor: Color(0xffFF5252),
+            backgroundColor: const Color(0xffFF5252),
           ),
           body: Center(
             child: Container(
@@ -32,9 +32,9 @@ class MyApp extends StatelessWidget {
                 width: 150,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: Color(0xff000000),
-                  border: Border.all(color: Color(0xffFF5252)),
-                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  color: const Color(0xff000000),
+                  border: Border.all(color: const Color(0xffFF5252)),
+                  borderRadius: const BorderRadius.all(Radius.circular(10)),
                   boxShadow: const [
                     BoxShadow(
                       color: Color(0xffFF5252),
