@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
-          backgroundColor: Colors.white,
+          backgroundColor: Color(0xff48416A),
           appBar: AppBar(
             centerTitle: true,
             title: const Text(
@@ -24,6 +24,8 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
+            elevation: 10,
+            shadowColor: Colors.black,
             backgroundColor: Color(0xff48416A),
           ),
           body: Center(
